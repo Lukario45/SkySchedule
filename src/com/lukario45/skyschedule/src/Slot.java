@@ -10,6 +10,7 @@ public class Slot {
 		this.availability = a;
 	}
 	public static void createSlots(){
-		Slot a = new Slot("A","6:00-7:30", true);
+		Slot a = new Slot("A","6:00PM-7:30PM", true);
+		Slot b = new Slot("B","7:30PM-9:00PM", true);
 	}
 }

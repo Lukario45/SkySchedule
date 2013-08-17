@@ -8,7 +8,7 @@ public class Gyms {
 		this.availability = a;
 		
 	}
-	public static void buildSchools(){
+	public static void buildGyms(){
 		Gyms pve = new Gyms("PVE", true);
 		Gyms pvi = new Gyms("PVI", true);
 		Gyms mso = new Gyms("MSO", true);

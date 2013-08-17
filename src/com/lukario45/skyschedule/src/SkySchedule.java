@@ -12,7 +12,9 @@ public class SkySchedule {
 		Slot.createSlots();
 		tellConsole("Slots Created! Loading Days....");
 		Days.loadDays();
-		tellConsole("Days Loaded!");
+		tellConsole("Days Loaded! Building Gyms....");
+		Gyms.buildGyms();
+		tellConsole("Gyms Built!");
 
 	}
 

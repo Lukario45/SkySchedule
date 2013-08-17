@@ -10,7 +10,7 @@ public class Days {
 		this.allSlots = a;
 		
 	}
-	public static void createDays(){
+	public static void loadDays(){
 		
 		Days mon = new Days("Monday",true, false );
 		Days tue = new Days("Tuesday",true, false);

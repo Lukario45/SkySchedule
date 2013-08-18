@@ -4,7 +4,7 @@ public class SkySchedule {
 	public static void tellConsole(String msg){
 		System.out.println(msg);
 	}
-
+//test
 	public static void main(String[] args) {
 		tellConsole("Welcome to SkySchedule!");
 		tellConsole("Initiating Bootup....");
